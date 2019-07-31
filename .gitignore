@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+report-logs
+.idea/*
+logs_for*
+v1
+*.swp

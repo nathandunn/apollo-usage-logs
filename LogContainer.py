@@ -21,6 +21,6 @@ class LogContainer:
             # print entry.server + " " + str(entry.num_organisms) + " " + str(entry.num_users)
 
         entry_count = len(self.entries)
-        print "Entries: " + str(entry_count)
+        print "Num servers: " + str(entry_count)
         print "Num organisms " + str(total_organisms) + " (" + str(total_organisms / entry_count) + ")"
         print "Num users " + str(total_users) + " (" + str(total_users / entry_count) + ")"

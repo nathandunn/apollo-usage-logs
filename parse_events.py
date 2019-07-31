@@ -5,7 +5,7 @@ from LogEntry import LogEntry
 from LogContainer import LogContainer
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-print "dir path " + dir_path
+# print "dir path " + dir_path
 
 date = "2019-07-30"
 if len(sys.argv) > 1:
@@ -18,7 +18,7 @@ log_container = LogContainer()
 def grep_files():
     subprocess.call([dir_path + '/find_logs.sh', date])
     # program ="find report-logs -name " + date + " | xargs cat | grep production  | grep  running "
-    print "file written to " + filename
+    # print "file written to " + filename
 
 
 def parse_line(line):

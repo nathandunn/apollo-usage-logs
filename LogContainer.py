@@ -18,7 +18,7 @@ class LogContainer:
             # print "num users " + str(entry.num_users)
             total_users = total_users + int(entry.num_users)
             total_organisms = total_organisms + int(entry.num_organisms)
-            print entry.server + " " + str(entry.num_organisms) + " " + str(entry.num_users)
+            # print entry.server + " " + str(entry.num_organisms) + " " + str(entry.num_users)
 
         entry_count = len(self.entries)
         print "Entries: " + str(entry_count)
